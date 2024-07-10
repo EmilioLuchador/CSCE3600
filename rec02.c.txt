@@ -1,0 +1,30 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    int* ptr;
+    int* int_ptr = (int*) malloc(2*sizeof(int));
+
+    if (ptr == NULL)
+    {
+        printf("Memory not Allocated");
+        exit(0);
+    }
+
+    printf("Enter a number");
+    scanf("%d", &ptr);
+    int_ptr[0] = ptr;
+
+    printf("Enter a number");
+    scanf("%d", &ptr);
+    int_ptr[1] = ptr
+    
+
+
+
+
+
+
+    return 0;
+}
